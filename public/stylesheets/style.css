@@ -1,0 +1,114 @@
+header{
+  background-color: black;
+ 
+}
+
+.nombre{
+  width: 600px;
+  
+}
+.contenedor{
+  
+  padding-left: 31%;
+}
+
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(255, 224, 121);
+  clear: both;
+  color: black;
+  padding: 2.5em 0;
+  margin-top: 2em;
+  text-align: center;
+}
+
+footer p{
+  font-style: italic;
+  text-align: center;
+  margin: 0;
+  font-size: 0.7e;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  background-color: black;
+  margin-bottom: 50px;
+  
+}
+
+.row2{
+  margin: 0 auto;
+  width: 80%;
+  background-color: black;
+}
+
+.row32{
+  color: whitesmoke;
+}
+.row23{
+  color: whitesmoke;
+}
+
+.table{
+  color: whitesmoke;
+}
+
+.btn-success {
+  color: rgb(0, 0, 0);
+  background-color:rgb(255, 224, 121);
+  border-color:rgb(253, 204, 44);
+  margin-left: 10%;
+  margin-bottom: 1%;
+}
+
+.btn-success:hover {
+  color:black;
+  background-color:rgb(253, 204, 44);
+  border-color:white;
+}
+
+.col-5{
+  margin-left: 58%;
+}
+
+.btn-secondary{
+  
+  color: rgb(0, 0, 0);
+  background-color:rgb(255, 224, 121);
+  border-color:rgb(253, 204, 44);
+  margin-left: 0%;
+
+}
+
+.btn-secondary:hover {
+  
+  color:black;
+  background-color:rgb(253, 204, 44);
+  border-color:white;
+  
+}
+
+.agregarnov{
+  background-color: rgba(0, 0, 0, 0.801);
+  color: whitesmoke;
+  width: 1200px;
+  text-align: center;
+  padding: 5%;
+  
+}
+
+.action{
+  padding: 2%;
+}
+
+.input-group-lg{
+  padding-bottom: 1%;
+}
+
+.cerrar-sesion{
+  padding-top: 1%;
+}

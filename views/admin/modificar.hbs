@@ -1,0 +1,26 @@
+<div class="agregarnov" style="margin: 100px auto;">
+    <h4 style="padding: 0 0 10px 0;">Modificar una novedad</h4>
+    <form action="/admin/novedades/modificar" method="post" enctype="multipart/form-data">
+
+        <input type="hidden" value="{{novedad.id}}" name="id">
+
+        <div class="input-group input-group-lg">
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg" placeholder="Titulo" name="titulo" value="{{novedad.titulo}}">
+        </div>
+        
+        <div class="mb-3">
+            <textarea type="text" class="form-control" placeholder="Cuerpo" name="cuerpo">{{novedad.cuerpo}}</textarea>
+        </div>
+
+        <div class="input-group input-group-lg">
+            <label for="">Imagen<input type="file" name="imagen" id="imagen"></label>
+            <label for=""><input type="checkbox" name="img_delete" id="img_delete" value="1">eliminar imagen actual</label>
+            <input type="hidden" name="img_original" value="{{novedad.id_img}}">
+        </div>
+        <button type="submit" class="btn btn-secondary">Modificar</button>
+    </form>
+    {{#if error}}
+    <p>{{message}}</p>
+    {{/if}}
+</div>

@@ -1,0 +1,71 @@
+header h1{
+    position: static;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    
+    background-color:transparent;
+    opacity: 1;
+}
+
+.login{
+    width: 600px;
+    height: 500px;
+    background-color: black;
+ 
+    margin: auto;
+    margin-top: 5.3%;
+    padding: 2%;
+    border-radius: 15%;
+
+
+}
+
+body{
+    background-image: url("../images/fondofondods.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.form-control{
+    
+    width: 50%;
+   
+    
+}
+
+.row{
+    width: 700px;
+    margin-left: 16%;
+    margin-top: -10%;
+}
+
+.mb-3row{
+    padding: 5%;
+    margin-left: -6%;
+}
+
+
+.iniciar{
+    color: rgb(255, 202, 55);
+    border-bottom: 1px solid whitesmoke;
+    width:fit-content;
+    width:-moz-fit-content ;
+    margin-left: 5%;
+    
+}
+
+.btn-primary {
+    color: black;
+    background-color:rgb(255, 202, 55);
+    border-color: whitesmoke;
+    margin-left: 14%;
+}
+
+.novedades{
+    width: 1920;
+    height: 1080px;
+    
+    background-color: black;
+ 
+}

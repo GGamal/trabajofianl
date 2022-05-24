@@ -1,0 +1,28 @@
+<section class="login">
+
+<div class="container" style="margin-top: 100px;">
+    <div class="row">
+       
+        <form  action="/admin/login" method="post">
+            <h1 class="iniciar">Iniciar sesion</h1>
+            <div class="mb-3row">
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputUser" placeholder="Usuario" name="nombre">
+                </div>
+            </div>
+            <div class="mb-3row">
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña"
+                        name="contraseña">
+                </div>
+            </div>
+
+            <button  type="submit" class="btn btn-primary">Ingresar</button>
+
+        </form>
+        {{#if error}}
+        <h6>Usuario o contraseña incorrectos</h6>
+        {{/if}}
+    </div>
+</div>
+</section>

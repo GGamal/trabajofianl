@@ -1,0 +1,24 @@
+<div class="agregarnov" style="margin: 100px auto;">
+    <h4 style="padding: 0 0 10px 0;">Agregar una nueva novedad</h4>
+    <form class="action" action="/admin/novedades/agregar" method="post" enctype="multipart/form-data">
+       
+        <div class="mb-3">
+           <label for="">Imagen<input type="file" name="imagen" id="imagen"></label>
+        </div>
+
+        <div class="input-group input-group-lg">
+            <input type="text" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg" placeholder="Titulo" name="titulo">
+        </div>
+
+        <div class="mb-3">
+            <textarea type="text" class="form-control" placeholder="Cuerpo"
+                name="cuerpo"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-secondary">Guardar</button>
+    </form>
+    {{#if error}}
+       <p>{{message}}</p>
+    {{/if}}
+</div>
